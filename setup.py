@@ -22,11 +22,11 @@ setup(
       # for best practices make this version the same as the VERSION class variable
       # defined in your ChrisApp-derived Python class
       version          =   '0.1',
-      description      =   'An app to ...',
+      description      =   'An test app to build a plugin running matrix-multiplication',
       long_description =   readme(),
       author           =   'jbwjeff',
       author_email     =   'jeff0410@bu.edu',
-      url              =   'http://wiki',
+      url              =   'https://github.com/FNNDSC/pl-test-matrixmul',
       packages         =   ['test_matrixmul'],
       install_requires =   ['chrisapp', 'pudb'],
       test_suite       =   'nose.collector',
